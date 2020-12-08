@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <conio.h>
 
 int main()
 {
@@ -20,5 +21,5 @@ int main()
         window.display();
     }
 
-    return 0;
+    _getch();
 }
