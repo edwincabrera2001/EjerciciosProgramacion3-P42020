@@ -19,17 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cadena.h" />
-    <ClInclude Include="Caracter.h" />
-    <ClInclude Include="Decimal.h" />
-    <ClInclude Include="Entero.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Nodo.cpp" />
+    <ClCompile Include="Objeto.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Cadena.cpp" />
-    <ClCompile Include="Caracter.cpp" />
-    <ClCompile Include="Decimal.cpp" />
-    <ClCompile Include="Entero.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="Nodo.h" />
+    <ClInclude Include="Objeto.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

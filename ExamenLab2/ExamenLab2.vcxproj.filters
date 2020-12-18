@@ -15,34 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Entero.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Cadena.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Decimal.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Caracter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Entero.cpp">
+    <ClCompile Include="Nodo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Decimal.cpp">
+    <ClCompile Include="Objeto.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Cadena.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Caracter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Nodo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Objeto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
