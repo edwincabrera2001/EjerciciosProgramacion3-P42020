@@ -1,47 +1,81 @@
 #include "Objeto.h"
 
-OBJETO_H::Entero::Entero() : entero(0) {
+Objeto::Entero::Entero() : entero(0) {
 
 }
 
-OBJETO_H::Entero::Entero(int _entero) : entero(_entero) {
+Objeto::Entero::Entero(int _entero) : entero(_entero) {
 
 }
 
-void Entero::setEntero(int _entero){
+void Objeto::Entero::setEntero(int _entero){
 
 	this->entero = _entero;
 
 }
 
-int Entero::getEntero() {
+int Objeto::Entero::getEntero() {
 
 	return this->entero;
 
 }
 
-OBJETO_H::Cadena::Cadena() : cadena(nullptr) {
+Objeto::Cadena::Cadena() : cadena(nullptr) {
 
 }
 
-OBJETO_H::Cadena::Cadena(char* _cadena) : cadena(_cadena) {
+Objeto::Cadena::Cadena(char* _cadena) : cadena(_cadena) {
 
 }
 
-void Cadena::setcadena(char* _cadena) {
+void Objeto::Cadena::setCadena(char* _cadena) {
 
 	this->cadena = _cadena;
 
 }
 
-char* Cadena::getCadena() {
+char* Objeto::Cadena::getCadena() {
 
 	return this->cadena;
 
 }
 
-OBJETO_H::Decimal::Decimal() : decimal(0) {
+Objeto::Decimal::Decimal() : decimal(0) {
 
 }
 
-OBJETO_H::Decimal::Decimal(float _decimal)
+Objeto::Decimal::Decimal(float _decimal) : decimal(_decimal) {
+
+}
+
+void Objeto::Decimal::setDecimal(float _decimal) {
+
+	this->decimal = _decimal;
+
+}
+
+float Objeto::Decimal::getDecimal() {
+
+	return this->decimal;
+
+}
+
+Objeto::Caracter::Caracter() : caracter(0) {
+
+}
+
+Objeto::Caracter::Caracter(char _caracter) : caracter(_caracter) {
+
+}
+
+void Objeto::Caracter::setCaracter(char _caracter) {
+
+	this->caracter = _caracter;
+
+}
+
+char Objeto::Caracter::getCaracter() {
+
+	return this->caracter;
+
+}

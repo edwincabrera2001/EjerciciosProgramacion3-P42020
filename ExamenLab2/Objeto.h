@@ -2,55 +2,65 @@
 #ifndef OBJETO_H
 #define OBJETO_H
 
-class Entero {
+class Objeto {
 
-public:
-	Entero();
-	Entero(int);
-	void setEntero(int);
-	int getEntero();
+	Objeto();
+	Objeto(Entero(int));
+	Objeto(Cadena(char*));
+	Objeto(Decimal(float));
+	Objeto(Caracter(char));
 
-private:
-	int entero;
+	class Entero {
 
-};
+	public:
+		Entero();
+		Entero(int);
+		void setEntero(int);
+		int getEntero();
 
-class Cadena {
+	private:
+		int entero;
 
-public:
-	Cadena();
-	Cadena(char*);
-	void setcadena(char*);
-	char* getCadena();
+	};
 
-private:
-	char* cadena;
+	class Cadena {
 
-};
+	public:
+		Cadena();
+		Cadena(char*);
+		void setCadena(char*);
+		char* getCadena();
 
-class Decimal {
+	private:
+		char* cadena;
 
-public:
-	Decimal();
-	Decimal(float);
-	void setDecimal(float);
-	float getDecimal();
+	};
 
-private:
-	float decimal;
+	class Decimal {
 
-};
+	public:
+		Decimal();
+		Decimal(float);
+		void setDecimal(float);
+		float getDecimal();
 
-class Caracter {
+	private:
+		float decimal;
 
-public:
-	Caracter();
-	Caracter(char);
-	void setCaracter(char);
-	char getCaracter();
+	};
 
-private:
-	char caracter;
+	class Caracter {
+
+	public:
+		Caracter();
+		Caracter(char);
+		void setCaracter(char);
+		char getCaracter();
+
+	private:
+		char caracter;
+
+	};
 
 };
 
