@@ -1,7 +1,5 @@
 #include <conio.h>
-#include "Objeto.h"
-
-
+#include "ListaCircular.h"
 
 int main() {
 

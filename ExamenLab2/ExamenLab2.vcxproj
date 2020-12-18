@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ListaCircular.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="Objeto.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ListaCircular.h" />
     <ClInclude Include="Nodo.h" />
     <ClInclude Include="Objeto.h" />
   </ItemGroup>
