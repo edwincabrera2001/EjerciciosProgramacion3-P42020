@@ -9,7 +9,7 @@ class ListaCircular {
 public:
 	ListaCircular();
 	void agregarObjeto(Objeto);
-	void eliminarObjeto();
+	void eliminarObjeto(Objeto);
 	Objeto obtenerCantidadObjetosxTipo();
 	void imprimirLista();
 

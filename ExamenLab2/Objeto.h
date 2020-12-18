@@ -5,10 +5,10 @@
 class Objeto {
 
 	Objeto();
-	Objeto(Entero(int));
-	Objeto(Cadena(char*));
-	Objeto(Decimal(float));
-	Objeto(Caracter(char));
+	Objeto(int);
+	Objeto(char*);
+	Objeto(float);
+	Objeto(char);
 
 	class Entero {
 

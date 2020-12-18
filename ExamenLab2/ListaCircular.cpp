@@ -1,4 +1,5 @@
 #include "ListaCircular.h"
+#include <iostream>
 
 ListaCircular::ListaCircular() : primero(nullptr), ultimo(nullptr) {
 
@@ -34,8 +35,18 @@ void ListaCircular::agregarObjeto(Objeto _obj) {
 
 }
 
-void ListaCircular::eliminarObjeto() {
+void ListaCircular::eliminarObjeto(Objeto _obj) {
 
+	if (estaVacia()) {
 
+		return;
+
+	}
+
+	Nodo* actual = primero;
+
+	do {
+
+	} while (actual != primero);
 
 }
