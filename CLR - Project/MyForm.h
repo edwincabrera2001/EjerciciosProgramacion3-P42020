@@ -218,6 +218,7 @@ namespace CLRProject {
 			this->listBox1->Name = L"listBox1";
 			this->listBox1->Size = System::Drawing::Size(164, 29);
 			this->listBox1->TabIndex = 13;
+			this->listBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::listBox1_SelectedIndexChanged);
 			// 
 			// menuStrip1
 			// 
@@ -283,5 +284,7 @@ namespace CLRProject {
 #pragma endregion
 	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+	private: System::Void listBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }
